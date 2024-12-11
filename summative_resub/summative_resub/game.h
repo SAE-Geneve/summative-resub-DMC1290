@@ -1,6 +1,7 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include "map.h"
 #include "pirateship.h"
 #include "treasure.h"
 
@@ -15,7 +16,7 @@ public:
 private:
 	PirateShip pirate_ship_;
 	Treasure treasure_;
-
+	Map map_;
 
 	sf::RenderWindow window_;
 

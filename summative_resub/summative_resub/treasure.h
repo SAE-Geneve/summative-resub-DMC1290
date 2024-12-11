@@ -3,12 +3,16 @@
 
 #include <SFML/Graphics.hpp>
 
-class Treasure
+class Treasure : public sf::Drawable, sf::Transformable
 {
 public:
 	Treasure();
 
 	void RandomPosition();
+
+	auto GetPosition() { return treasure_sprite_.getPosition(); }
+protected:
+	void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
 
 private:
 	sf::Texture treasure_texture_;
