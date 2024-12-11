@@ -6,5 +6,6 @@
 int main()
 {
     Game game;
+    game.Struct();
     game.Loop();
 }

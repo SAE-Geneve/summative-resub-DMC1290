@@ -128,10 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="game.cc" />
+    <ClCompile Include="pirateship.cc" />
     <ClCompile Include="summative_resub.cpp" />
+    <ClCompile Include="treasure.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h" />
+    <ClInclude Include="pirateship.h" />
+    <ClInclude Include="treasure.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

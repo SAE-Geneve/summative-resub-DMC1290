@@ -21,9 +21,21 @@
     <ClCompile Include="game.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pirateship.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="treasure.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pirateship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="treasure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
