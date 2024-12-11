@@ -39,7 +39,7 @@ void Map::DisplayMap(sf::RenderWindow& window)
 			{
 				window.draw(sprite_);
 			}
-			else
+			else if (map_[idx] == 1)
 			{
 				window.draw(treasure_);
 			}

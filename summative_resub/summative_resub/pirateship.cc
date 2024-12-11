@@ -8,10 +8,13 @@ PirateShip::PirateShip()
 	pirate_sprite_.setPosition(384,384);
 }
 
-void PirateShip::Move()
+void PirateShip::Move(sf::Vector2f direction, float dt)
 {
+	const float speed = 2.0;
 
-	// TODO 
+	sf::Vector2f position = pirate_sprite_.getPosition() + speed * direction * dt;
+	pirate_sprite_.setPosition(direction);
+
 	// Forward direction (local +x direction in global space)
 	float angleRad = pirate_sprite_.getRotation() * (3.14159265358979323846f / 180.0f);
 	sf::Vector2f forward(std::cos(angleRad), std::sin(angleRad));

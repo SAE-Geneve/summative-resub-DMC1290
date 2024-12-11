@@ -9,7 +9,7 @@ public:
 
 	PirateShip();
 
-	void Move();
+	void Move(sf::Vector2f direction, float dt);
 
 protected:
 	void draw(sf::RenderTarget& target, sf::RenderStates states) const override;

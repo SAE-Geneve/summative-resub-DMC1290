@@ -9,7 +9,7 @@ Treasure::Treasure()
 
 void Treasure::RandomPosition()
 {
-		//treasure_index_ = rand() % (kRowSize * kColSize);
+		treasure_index_ = rand() % (12 * 12);
 }
 
 void Treasure::draw(sf::RenderTarget& target, sf::RenderStates states) const

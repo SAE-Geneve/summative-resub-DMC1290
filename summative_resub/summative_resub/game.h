@@ -5,6 +5,7 @@
 #include "pirateship.h"
 #include "treasure.h"
 
+
 class Game
 {
 public:
@@ -21,5 +22,8 @@ private:
 	sf::RenderWindow window_;
 
 	sf::Clock clock_;
+
+	sf::Font font_;
+	sf::Text score_;
 };
 #endif // GAME_H
