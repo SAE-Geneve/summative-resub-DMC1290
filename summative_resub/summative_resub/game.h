@@ -7,7 +7,7 @@
 class Game
 {
 public:
-
+	
 	void Struct();
 
 	void Loop();

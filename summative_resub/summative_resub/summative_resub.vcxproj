@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="game.cc" />
+    <ClCompile Include="map.cc" />
     <ClCompile Include="pirateship.cc" />
     <ClCompile Include="summative_resub.cpp" />
     <ClCompile Include="treasure.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h" />
+    <ClInclude Include="map.h" />
     <ClInclude Include="pirateship.h" />
     <ClInclude Include="treasure.h" />
   </ItemGroup>

@@ -9,6 +9,8 @@ public:
 
 	PirateShip();
 
+	void Move();
+
 protected:
 	void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
 

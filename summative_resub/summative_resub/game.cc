@@ -1,5 +1,6 @@
 #include "game.h"
 
+
 void Game::Struct()
 {
 	window_.create(sf::VideoMode(800, 800), "Pirate");
